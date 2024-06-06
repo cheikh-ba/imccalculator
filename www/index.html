@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
-        <meta name="color-scheme" content="light dark">
         <link rel="stylesheet" href="css/index.css">
         <script src="js/index.js"></script>
         <title>IMC Calculator</title>
@@ -15,7 +14,7 @@
             <input type="number" id="poids" placeholder="poids en kg">
             <label for="taille">Taille</label>
             <input type="number" id="taille" placeholder="taille en m">
-            <input type="button" value="Calculer IMC" onclick="calculerIMC()">
+            <input type="button" id="bouttonCalculer" value="Calculer IMC" onclick="calculerIMC()">
             <fieldset hidden>
                 <legend> Résultat</legend>
                     <span>

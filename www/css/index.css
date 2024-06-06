@@ -8,7 +8,7 @@ body {
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
     background-color:#E4E4E4;
-    background-image:linear-gradient(to bottom, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:linear-gradient(to bottom, #26b 0%, #E4E4E4 51%);
     font-family: system-ui, -apple-system, -apple-system-font, 'Segoe UI', 'Roboto', sans-serif;
     font-size:12px;
     height:100vh;
@@ -28,4 +28,12 @@ form{
 label, input, fieldset{
     width: 90%;
     margin-bottom: 10px;
+}
+input{
+    height: 25px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+#bouttonCalculer{
+    width: 40%;
 }
